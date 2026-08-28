@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>La Cocina de Mamá</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#141414">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; background: #141414; overflow: hidden; }
+    iframe {
+      width: 100%; height: 100%; border: none; display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- 🆕 Acá adentro se muestra la app real (la que vive en Apps
+       Script) - el usuario nunca ve esa URL larga, solo ve tu dominio. -->
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbx3LV1WkRwf0pQX4sQK-YGDIISDeMNdFipKgv229R9asqETZ9B9BopSwKvdxbbKCDGm/exec"
+    allow="clipboard-write; geolocation"
+    title="La Cocina de Mamá">
+  </iframe>
+
+  <script>
+    // Registra el service worker (obligatorio para que cuente como PWA instalable).
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "La Cocina de Mamá",
+  "short_name": "Cocina de Mamá",
+  "description": "Comida casera, directo a tu mesa",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141414",
+  "theme_color": "#141414",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
