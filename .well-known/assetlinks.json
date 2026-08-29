@@ -1,0 +1,1 @@
+ [{ "relation": ["delegate_permission/common.handle_all_urls"], "target": { "namespace": "android_app", "package_name": "io.github.multisolucionessp.twa", "sha256_cert_fingerprints": ["6E:E5:17:C8:9C:D6:50:66:0C:17:C4:1A:4D:00:95:00:FC:69:48:5D:34:88:B4:BF:C6:34:C6:62:22:B8:13:85"]
